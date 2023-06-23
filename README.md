@@ -6,10 +6,10 @@
 
 LAMP Server installation script under Ubuntu and Debian.
 
-	- Apache
-	- MySQL
-	- PHP
-	- on Linux
+- Apache
+- MySQL
+- PHP
+- on Linux
 
 Works on Ubuntu, Debian and Rasbpian.
 
@@ -54,16 +54,16 @@ The `vx_lamp.sh` application does not require any additional packages to work.
 
 7. At the end of the LAMP wizard installation, you can install additional packages.
 
-	- php8.1-cgi
-	- php8.1-xmlrpc
-	- php8.1-snmp
-	- php8.1-pspell
-	- php-geoip
-	- php-rrd
-	- php-oauth
-	- php-auth-sasl
-	- php8.1-zip
-	- php-imagick
+- php8.1-cgi
+- php8.1-xmlrpc
+- php8.1-snmp
+- php8.1-pspell
+- php-geoip
+- php-rrd
+- php-oauth
+- php-auth-sasl
+- php8.1-zip
+- php-imagick
 
 8. Don't forget to change the 'AllowOverride' parameter from 'None' to 'ALL' in the /var/www/ directory of the apache2.conf file.
 
