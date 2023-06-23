@@ -69,7 +69,7 @@ The `vx_lamp.sh` application does not require any additional packages to work.
 
 9. Activate and start the Apache2 service.
 
- ```bash
+ 	```bash
 	systemctl enable apache2.service
 	systemctl start apache2.service
 	systemctl status apache2.service
@@ -82,6 +82,5 @@ The `vx_lamp.sh` application does not require any additional packages to work.
 	systemctl start apache2.service
 	systemctl status apache2.service
 	```
-
 ---
 [logo]: ./md/logo.png "Cybionet"
